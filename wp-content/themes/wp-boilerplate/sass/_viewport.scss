@@ -1,0 +1,59 @@
+.mobile {
+
+    display: block;
+}
+
+.tablet-portrait {
+
+    display: none;
+}
+
+.tablet-portrait {
+
+    display: none;
+}
+
+.desktop {
+
+    display: none;
+}
+
+@media (min-width: 768px) {
+
+    .mobile {
+        
+        display: none;
+    }
+
+    .tablet-portrait {
+
+        display: block;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .tablet-portrait {
+
+        display: none;
+    }
+
+    .tablet-landscape {
+
+        display: block;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .tablet-landscape {
+
+        display: none;
+    }
+
+    .desktop {
+
+        display: block;
+    }
+
+}

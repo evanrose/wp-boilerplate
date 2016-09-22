@@ -1,0 +1,98 @@
+@import "normalize";
+@import "viewport";
+
+html, body {
+
+}
+
+header
+
+}
+
+main {	
+
+}
+
+footer {
+
+}
+
+.tablet-portrait {
+
+	display: none;
+}
+
+.tablet-portrait {
+
+	display: none;
+}
+
+.desktop {
+
+	display: none;
+}
+
+@media (min-width: 768px) {
+
+	.mobile {
+		
+		display: none;
+	}
+
+	.tablet-portrait {
+
+		display: block;
+	}
+
+	.desktop {
+
+		display: none;
+	}
+}
+
+@media (min-width: 1024px) {
+
+	.mobile {
+
+		display: none;
+	}
+
+	.tablet-portrait {
+
+		display: none;
+	}
+
+	.tablet-landscape {
+
+		display: block;
+	}
+
+	.desktop {
+
+		display: none;
+	}
+}
+
+@media (min-width: 1280px) {
+
+	.mobile {
+
+		display: none;
+	}
+
+	.tablet-portrait {
+
+		display: none;
+	}
+
+	.tablet-landscape {
+
+		display: none;
+	}
+
+	.desktop {
+
+		display: block;
+	}
+
+}
